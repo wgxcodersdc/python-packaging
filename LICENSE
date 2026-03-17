@@ -1,3 +1,9 @@
+This repository uses a dual license:
+
+=======================================================================
+Code (example snippets, scripts, configuration files)
+=======================================================================
+
 BSD 3-Clause License
 
 Copyright (c) 2026, Women and Gender eXpansive Coders DC
@@ -26,3 +32,18 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+=======================================================================
+Content (README, slides, written documentation)
+=======================================================================
+
+This workshop content is based on the PyOpenSci Python Package Guide
+(https://www.pyopensci.org/python-package-guide/), which is licensed
+under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+
+All written content in this repository (README.md, slides/, and related
+documentation) is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License.
+
+To view a copy of this license, visit:
+https://creativecommons.org/licenses/by-sa/4.0/

@@ -1,6 +1,6 @@
 # WGXC-DC Python Packaging Workshop
 
-This is a tutorial on the basics of Python packaging. [**View the slides**](https://htmlpreview.github.io/?https://github.com/wgxcodersdc/python-packaging/blob/main/slides/slides.html)
+This is a tutorial on the basics of Python packaging. [**View the slides**](https://wgxcodersdc.org/python-packaging/slides/slides.html)
 
 The content of this tutorial is based on the [Python Packaging 101 tutorial](https://www.pyopensci.org/python-package-guide/tutorials/intro.html)
 from PyOpenSci.

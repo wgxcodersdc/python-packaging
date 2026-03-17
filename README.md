@@ -9,7 +9,7 @@ We will cover only the basics, but if you are interested in going deeper, we hig
 
 ## Prerequisites
 
-Before the workshop, please create an account on [TestPyPI](https://test.pypi.org/account/register/). We will use TestPyPI to practice publishing your package without affecting the real Python Package Index (PyPI).
+Before the workshop, please create an account on [TestPyPI](https://test.pypi.org/account/register/) and enable 2FA. We will use TestPyPI to practice publishing your package without affecting the real Python Package Index (PyPI).
 
 ## Step 1: Setup
 

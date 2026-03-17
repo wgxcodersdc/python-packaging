@@ -358,6 +358,22 @@ hatch run build:check
 
 If everything passes, we are ready to publish.
 
+### Run tests with hatch
+
+You can also run tests using the hatch `test` environment, which manages its own dependencies. First, deactivate the uv virtual environment:
+
+```bash
+deactivate
+```
+
+Then run:
+
+```bash
+hatch run test:run
+```
+
+Hatch will create an isolated environment and run pytest for you.
+
 ### Publish to TestPyPI with hatch
 
 1. Disable keyring so hatch prompts for the token interactively:

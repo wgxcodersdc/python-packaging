@@ -23,6 +23,14 @@ Thank you to [Prefect](https://www.prefect.io/) for hosting this workshop!
 
 ---
 
+## Before we start
+
+Please create an account on [TestPyPI](https://test.pypi.org/account/register/) and **enable 2FA**.
+
+We will use it later to publish your package.
+
+---
+
 ## WGCX-DC Python Packaging Workshop
 
 Based on the [PyOpenSci Python Packaging 101 Tutorial](https://www.pyopensci.org/python-package-guide/tutorials/intro.html)

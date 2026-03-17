@@ -467,3 +467,12 @@ The workshop slides are in the `slides/` directory and use [Marp](https://marp.a
    ```
 
    > **Note:** For PDF export, the Montserrat font must be installed locally on your machine. The HTML export loads it automatically via Google Fonts.
+
+## License and Attribution
+
+This repository uses a dual license:
+
+- **Code** (example snippets, scripts, configuration): [BSD 3-Clause License](LICENSE)
+- **Content** (README, slides, documentation): [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+The written content is based on the [PyOpenSci Python Package Guide](https://www.pyopensci.org/python-package-guide/), which is licensed under CC BY-SA 4.0. You are free to share and adapt this material, provided you give appropriate credit and distribute any derivative works under the same license.

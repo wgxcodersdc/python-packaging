@@ -23,7 +23,7 @@ We will use GitHub Codespaces for this tutorial, since it removes OS-specific in
 
    ```json
    "ghcr.io/devcontainers-extra/features/hatch:1": {
-       "version": "1.16"
+       "version": "1.16.5"
    }
    ```
 

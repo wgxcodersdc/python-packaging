@@ -326,9 +326,8 @@ The version of hatch installed in the devcontainer has a known issue ([hatch#219
 
 1. Add `hatchling` as a dependency in the `build` environment:
 
-   ```toml
-   [tool.hatch.envs.build]
-   dependencies = [
+      ```toml
+   build = [
        "hatchling",
        "pip-audit",
        "twine",

@@ -97,7 +97,7 @@ If you are comfortable setting this up locally, you will need:
 
 ## Step 4: Test your package
 
-1. Try importing your package in a Python shell:
+1. Try importing your package in a Python shell for example if your package name is `wgxcpack`:
 
    ```python
    >>> import wgxcpack
@@ -123,7 +123,7 @@ Let's explore teh test we just run. `/tests/test_examples.py`
 
 ### Useful pytest options
 
-The template includes several useful pytest plugins:
+The template includes several useful pytest plugins, here `wgxcpack` should be replaced for the name of your package:
 
 - **randomly** — randomizes test order automatically. To reproduce a failure, reuse the seed:
   ```bash
@@ -161,7 +161,7 @@ Then re-install your package so the new dependency is picked up:
 uv pip install -e .
 ```
 
-Now let's add a function that uses NumPy. Add the following to your existing `example.py` file (e.g., `src/wgxcpack/example.py`):
+Now let's add a function that uses NumPy. Add the following to your existing `example.py` file (e.g., `src/<your-package-name>/example.py`):
 
 ```python
 import numpy as np
@@ -199,7 +199,7 @@ def sqrt_array(values):
     return np.sqrt(arr)
 ```
 
-Run tests and coverage
+Run tests and coverage, here `wgxcpack` should be replaced by your package name.
 
 ```bash
 pytest -n auto --cov=wgxcpack --cov-report=term-missing
@@ -434,7 +434,7 @@ If `hatch publish` does not work for you, you can use `twine` as an alternative.
 2. Because `numpy` is a dependency, we need to tell `pip` it can grab it from the real PyPI by providing an extra index:
 
    ```bash
-   uv pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ wgxcpack
+   uv pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ <inser-here-your-package-name>
    ```
 
 ## Conclusion
